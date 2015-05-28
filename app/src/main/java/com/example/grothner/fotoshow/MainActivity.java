@@ -1,17 +1,21 @@
 package com.example.grothner.fotoshow;
 
+import android.app.Activity;
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.GridView;
 
 
-public class MainActivity extends ListActivity{
+public class MainActivity extends Activity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        GridView gridView = (GridView)findViewById(R.id.gridview);
+        gridView.setAdapter(new MyAdapter(this));
     }
 
 //läuft bei mir
