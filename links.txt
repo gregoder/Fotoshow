@@ -1,1 +1,2 @@
 http://stackoverflow.com/questions/15261088/gridview-with-two-columns-and-auto-resized-images
+http://stackoverflow.com/questions/7989014/align-text-left-checkbox-right
