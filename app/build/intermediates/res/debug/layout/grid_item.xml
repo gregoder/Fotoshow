@@ -19,4 +19,4 @@
         android:layout_gravity="bottom"
         android:textColor="@android:color/white"
         android:background="#55000000"/>
-</FrameLayout>
+</FrameLayout><!-- From: file:/S:/3b/gRothner/POS/Fotoshow/Fotoshow/app/src/main/res/layout/grid_item.xml -->
