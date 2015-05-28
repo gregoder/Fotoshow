@@ -1,12 +1,12 @@
 package com.example.grothner.fotoshow;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ListActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
