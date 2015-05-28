@@ -52,7 +52,7 @@ public final class MyAdapter extends BaseAdapter {
         mItems.add(new Item("", R.drawable.dark_gray));
         mItems.add(new Item("",      R.drawable.gray));
         mItems.add(new Item("",     R.drawable.green));
-        mItems.add(new Item("",      R.drawable.cyan));
+
     }
 
     @Override
