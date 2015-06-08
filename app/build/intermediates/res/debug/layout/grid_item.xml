@@ -6,17 +6,35 @@
         android:id="@+id/picture"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        />
 
-    <TextView
+
+    <CheckBox
         android:id="@+id/text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp"
-        android:layout_gravity="bottom"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        android:paddingBottom="5dp"
+        android:layout_gravity="right"
         android:textColor="@android:color/white"
-        android:background="#55000000"/>
-</FrameLayout><!-- From: file:/S:/3b/gRothner/POS/Fotoshow/Fotoshow/app/src/main/res/layout/grid_item.xml -->
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        />
+  <!--  <selector
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on" />
+        <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off" />
+        <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/_ics_btn_check_on_pressed" />
+        <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/_ics_btn_check_off_pressed" />
+        <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off" />
+        <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on" />
+        <item android:state_window_focused="false" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on_disabled" />
+        <item android:state_window_focused="false" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off_disabled" />
+        <item android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off_disabled" />
+        <item android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on_disabled" />
+    </selector>-->
+
+</FrameLayout><!-- From: file:/C:/Users/Gregor/Desktop/Schule/POS/14-15/Fotoshow/app/src/main/res/layout/grid_item.xml -->
