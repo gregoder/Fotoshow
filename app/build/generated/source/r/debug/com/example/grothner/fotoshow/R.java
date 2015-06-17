@@ -15,28 +15,34 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int _ics_btn_check_off=0x7f020000;
-        public static final int _ics_btn_check_off_disabled=0x7f020001;
-        public static final int _ics_btn_check_off_pressed=0x7f020002;
-        public static final int _ics_btn_check_on=0x7f020003;
-        public static final int _ics_btn_check_on_disabled=0x7f020004;
-        public static final int _ics_btn_check_on_pressed=0x7f020005;
-        public static final int dark_gray=0x7f020006;
-        public static final int gray=0x7f020007;
-        public static final int green=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int magenta=0x7f02000a;
-        public static final int red=0x7f02000b;
+        public static final int dark_gray=0x7f020000;
+        public static final int gray=0x7f020001;
+        public static final int green=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int magenta=0x7f020004;
+        public static final int red=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f080003;
+        public static final int action_settings=0x7f08000e;
+        public static final int button=0x7f080001;
+        public static final int button2=0x7f080002;
+        public static final int button3=0x7f080003;
         public static final int gridview=0x7f080000;
-        public static final int picture=0x7f080001;
-        public static final int text=0x7f080002;
+        public static final int map=0x7f080006;
+        public static final int picture=0x7f080004;
+        public static final int text=0x7f080005;
+        public static final int textView=0x7f080007;
+        public static final int textView2=0x7f080008;
+        public static final int textView3=0x7f08000a;
+        public static final int textView4=0x7f08000b;
+        public static final int textView5=0x7f08000c;
+        public static final int textView6=0x7f08000d;
+        public static final int textView7=0x7f080009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int grid_item=0x7f030001;
+        public static final int map=0x7f030002;
     }
     public static final class menu {
         public static final int menu_main=0x7f070000;
