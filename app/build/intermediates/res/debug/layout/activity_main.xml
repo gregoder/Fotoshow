@@ -26,7 +26,9 @@
             android:id="@+id/button"
             android:layout_gravity="left|bottom"
             android:clickable="true"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp" />
 
         <Button
             android:layout_width="wrap_content"
@@ -35,7 +37,8 @@
             android:id="@+id/button2"
             android:layout_gravity="center_horizontal|bottom"
             android:clickable="true"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
 
         <Button
             android:layout_width="wrap_content"
@@ -44,7 +47,8 @@
             android:id="@+id/button3"
             android:layout_gravity="right|bottom"
             android:clickable="true"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_marginRight="15dp" />
     </LinearLayout>
 
 

@@ -10,15 +10,20 @@ import android.widget.GridView;
 
 public class MainActivity extends Activity {
 
+    private MapFragment mapFragment;
+    private boolean showDetail = false;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         GridView gridView = (GridView)findViewById(R.id.gridview);
         gridView.setAdapter(new MyAdapter(this));
+        mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
+        showDetail = mapFragment != null && mapFragment.isInLayout();
     }
 
-//läuft bei mir
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
