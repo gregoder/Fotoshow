@@ -1,2 +1,4 @@
 http://stackoverflow.com/questions/15261088/gridview-with-two-columns-and-auto-resized-images
 http://stackoverflow.com/questions/7989014/align-text-left-checkbox-right
+http://android-coding.blogspot.co.at/2011/10/read-exif-of-jpg-file-using.html
+http://android-coding.blogspot.co.at/2011/10/convert-gps-tag-of-exifinterface-to.html
