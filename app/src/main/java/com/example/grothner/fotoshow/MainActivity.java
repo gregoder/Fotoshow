@@ -2,10 +2,14 @@ package com.example.grothner.fotoshow;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.GridView;
+
+import java.io.IOException;
 
 
 public class MainActivity extends Activity {
@@ -39,5 +43,15 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void startDiashow() throws IOException {
+        String url = "http://stream3.o94.at:8002/mobile3"; // your URL here
+        MediaPlayer mediaPlayer = new MediaPlayer();
+        mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+
+        mediaPlayer.setDataSource(url);
+        mediaPlayer.prepare(); // might take long! (for buffering, etc)
+        mediaPlayer.start();
+
     }
 }

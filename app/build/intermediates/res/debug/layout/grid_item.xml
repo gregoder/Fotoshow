@@ -37,4 +37,4 @@
         <item android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on_disabled" />
     </selector>-->
 
-</FrameLayout><!-- From: file:/C:/Users/rgruber/Desktop/Fotoshow/app/src/main/res/layout/grid_item.xml -->
+</FrameLayout><!-- From: file:/C:/Users/rgruber/Desktop/Fotoshow/Fotoshow/app/src/main/res/layout/grid_item.xml -->
