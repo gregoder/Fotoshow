@@ -1,2 +1,4 @@
 http://stackoverflow.com/questions/15261088/gridview-with-two-columns-and-auto-resized-images
 http://stackoverflow.com/questions/7989014/align-text-left-checkbox-right
+http://stackoverflow.com/questions/15865979/how-to-implement-a-contentprovider-for-providing-image-to-gmail-facebook-evern
+https://github.com/osmdroid/osmdroid/wiki/How-to-use-the-osmdroid-library
