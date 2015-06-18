@@ -41,6 +41,7 @@ public class MapFragment extends Fragment {
         date = (TextView) view.findViewById(R.id.dateInput);
         longitude = (TextView) view.findViewById(R.id.longitudeInput);
         latitude = (TextView) view.findViewById(R.id.latitudeInput);
+        initMap();
         return view;
     }
 
@@ -70,7 +71,7 @@ public class MapFragment extends Fragment {
     {
         final OverlayItem overlayItem = new OverlayItem(item.getId(), item.getDate(), item.getGeoPoint());
         overlayItem.setMarker(getResources().getDrawable(R.drawable.red));
-        //Später sollte hier eine Miniaturansicht des Bildes sein !
+        //Spï¿½ter sollte hier eine Miniaturansicht des Bildes sein !
 
         ItemizedOverlayWithFocus<OverlayItem> itemList = new ItemizedOverlayWithFocus<OverlayItem>(Arrays.asList(overlayItem),
                 new ItemizedIconOverlay.OnItemGestureListener<OverlayItem>() {
@@ -93,7 +94,7 @@ public class MapFragment extends Fragment {
    /* private void createDialog(final Image item)
     {
         AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
-        alert.setTitle("Aktion auswählen");
+        alert.setTitle("Aktion auswï¿½hlen");
         alert.setSingleChoiceItems(R.array.actions, 0, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -104,9 +105,9 @@ public class MapFragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 if (selection == 0) {
-                   //intent ausführen
+                   //intent ausfï¿½hren
                 } else if (selection == 1) {
-                   //intent ausführen
+                   //intent ausfï¿½hren
                 }
             }
         });

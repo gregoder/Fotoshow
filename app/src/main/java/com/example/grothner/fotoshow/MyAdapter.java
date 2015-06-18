@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -109,16 +110,16 @@ public final class MyAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View v = view;
         ImageView picture;
-        TextView name;
+        CheckBox name;
 
         if (v == null) {
             v = mInflater.inflate(R.layout.grid_item, viewGroup, false);
             v.setTag(R.id.picture, v.findViewById(R.id.picture));
-            v.setTag(R.id.text, v.findViewById(R.id.text));
+            v.setTag(R.id.Checkbox, v.findViewById(R.id.Checkbox));
         }
 
         picture = (ImageView) v.getTag(R.id.picture);
-        name = (TextView) v.getTag(R.id.text);
+        name = (CheckBox) v.getTag(R.id.Checkbox);
 
         Item item = getItem(i);
 
