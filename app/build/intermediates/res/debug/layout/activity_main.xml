@@ -13,5 +13,44 @@
         android:stretchMode="columnWidth"
         android:numColumns="3"/>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slideshow"
+            android:id="@+id/button"
+            android:layout_gravity="left|bottom"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locations"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal|bottom"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Optionen"
+            android:id="@+id/button3"
+            android:layout_gravity="right|bottom"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_marginRight="15dp" />
+    </LinearLayout>
+
+
 </FrameLayout>
 <!-- From: file:/C:/Users/rgruber/Desktop/Fotoshow/Fotoshow/app/src/main/res/layout/activity_main.xml -->

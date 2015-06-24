@@ -21,20 +21,19 @@
         android:layout_gravity="right"
         android:textColor="@android:color/white"
         android:button="@null"
-        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
-        />
-   <!-- <selector
-        xmlns:android="http://schemas.android.com/apk/res/android">
-        <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on" />
-        <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off" />
-        <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/_ics_btn_check_on_pressed" />
-        <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/_ics_btn_check_off_pressed" />
-        <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off" />
-        <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on" />
-        <item android:state_window_focused="false" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on_disabled" />
-        <item android:state_window_focused="false" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off_disabled" />
-        <item android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off_disabled" />
-        <item android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on_disabled" />
-    </selector>-->
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple" />
+    <!--  <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+          <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on" />
+          <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off" />
+          <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/_ics_btn_check_on_pressed" />
+          <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/_ics_btn_check_off_pressed" />
+          <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off" />
+          <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on" />
+          <item android:state_window_focused="false" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on_disabled" />
+          <item android:state_window_focused="false" android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off_disabled" />
+          <item android:state_checked="false" android:drawable="@drawable/_ics_btn_check_off_disabled" />
+          <item android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on_disabled" />
+      </selector>-->
 
-</FrameLayout><!-- From: file:/C:/Users/rgruber/Desktop/Fotoshow/Fotoshow/app/src/main/res/layout/grid_item.xml -->
+</FrameLayout><!-- From: file:/C:/Users/Gregor/Desktop/Schule/POS/14-15/Fotoshow/app/src/main/res/layout/grid_item.xml -->
