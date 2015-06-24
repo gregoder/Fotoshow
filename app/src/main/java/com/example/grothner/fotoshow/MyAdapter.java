@@ -24,41 +24,8 @@ public final class MyAdapter extends BaseAdapter {
 
     public MyAdapter(Context context) {
         mInflater = LayoutInflater.from(context);
+        fillExampleImages();
 
-        mItems.add(new Item("",       R.drawable.red));
-        mItems.add(new Item("",   R.drawable.magenta));
-        mItems.add(new Item("", R.drawable.dark_gray));
-        mItems.add(new Item("",      R.drawable.gray));
-        mItems.add(new Item("",     R.drawable.green));
-        mItems.add(new Item("",       R.drawable.red));
-        mItems.add(new Item("",   R.drawable.magenta));
-        mItems.add(new Item("", R.drawable.dark_gray));
-        mItems.add(new Item("",      R.drawable.gray));
-        mItems.add(new Item("",     R.drawable.green));
-        mItems.add(new Item("", R.drawable.red));
-        mItems.add(new Item("",       R.drawable.red));
-        mItems.add(new Item("",   R.drawable.magenta));
-        mItems.add(new Item("", R.drawable.dark_gray));
-        mItems.add(new Item("",      R.drawable.gray));
-        mItems.add(new Item("",     R.drawable.green));
-        mItems.add(new Item("", R.drawable.red));
-        mItems.add(new Item("",       R.drawable.red));
-        mItems.add(new Item("",   R.drawable.magenta));
-        mItems.add(new Item("", R.drawable.dark_gray));
-        mItems.add(new Item("",      R.drawable.gray));
-        mItems.add(new Item("",     R.drawable.green));
-        mItems.add(new Item("", R.drawable.red));
-        mItems.add(new Item("",       R.drawable.red));
-        mItems.add(new Item("",   R.drawable.magenta));
-        mItems.add(new Item("", R.drawable.dark_gray));
-        mItems.add(new Item("",      R.drawable.gray));
-        mItems.add(new Item("",     R.drawable.green));
-        mItems.add(new Item("", R.drawable.red));
-        mItems.add(new Item("",       R.drawable.red));
-        mItems.add(new Item("",   R.drawable.magenta));
-        mItems.add(new Item("", R.drawable.dark_gray));
-        mItems.add(new Item("",      R.drawable.gray));
-        mItems.add(new Item("",     R.drawable.green));
         getCameraImages(context);
     }
     public static final String CAMERA_IMAGE_BUCKET_NAME =
@@ -141,5 +108,41 @@ public final class MyAdapter extends BaseAdapter {
             this.name = name;
             this.drawableId = drawableId;
         }
+    }
+    private void fillExampleImages(){
+        mItems.add(new Item("",       R.drawable.red));
+        mItems.add(new Item("",   R.drawable.magenta));
+        mItems.add(new Item("", R.drawable.dark_gray));
+        mItems.add(new Item("",      R.drawable.gray));
+        mItems.add(new Item("",     R.drawable.green));
+        mItems.add(new Item("",       R.drawable.red));
+        mItems.add(new Item("",   R.drawable.magenta));
+        mItems.add(new Item("", R.drawable.dark_gray));
+        mItems.add(new Item("",      R.drawable.gray));
+        mItems.add(new Item("",     R.drawable.green));
+        mItems.add(new Item("", R.drawable.red));
+        mItems.add(new Item("",       R.drawable.red));
+        mItems.add(new Item("",   R.drawable.magenta));
+        mItems.add(new Item("", R.drawable.dark_gray));
+        mItems.add(new Item("",      R.drawable.gray));
+        mItems.add(new Item("",     R.drawable.green));
+        mItems.add(new Item("", R.drawable.red));
+        mItems.add(new Item("",       R.drawable.red));
+        mItems.add(new Item("",   R.drawable.magenta));
+        mItems.add(new Item("", R.drawable.dark_gray));
+        mItems.add(new Item("",      R.drawable.gray));
+        mItems.add(new Item("",     R.drawable.green));
+        mItems.add(new Item("", R.drawable.red));
+        mItems.add(new Item("",       R.drawable.red));
+        mItems.add(new Item("",   R.drawable.magenta));
+        mItems.add(new Item("", R.drawable.dark_gray));
+        mItems.add(new Item("",      R.drawable.gray));
+        mItems.add(new Item("",     R.drawable.green));
+        mItems.add(new Item("", R.drawable.red));
+        mItems.add(new Item("",       R.drawable.red));
+        mItems.add(new Item("",   R.drawable.magenta));
+        mItems.add(new Item("", R.drawable.dark_gray));
+        mItems.add(new Item("",      R.drawable.gray));
+        mItems.add(new Item("",     R.drawable.green));
     }
 }

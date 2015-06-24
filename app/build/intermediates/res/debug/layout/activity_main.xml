@@ -13,44 +13,31 @@
         android:stretchMode="columnWidth"
         android:numColumns="3"/>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:weightSum="3">
+    <Button
+        android:id="@+id/showMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_weight="1"
+        android:onClick="onMapStartClick"
+        android:clickable="true"
+        android:text="Standorte" />
+    <Button
+        android:id="@+id/slideshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_weight="1"
+        android:onClick="onStartSlide"
+        android:clickable="true"
+        android:text="Slideshow" />
+    <Button
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:text="Optionen" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Slideshow"
-            android:id="@+id/button"
-            android:layout_gravity="left|bottom"
-            android:clickable="true"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="5dp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Locations"
-            android:id="@+id/button2"
-            android:layout_gravity="center_horizontal|bottom"
-            android:clickable="true"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Optionen"
-            android:id="@+id/button3"
-            android:layout_gravity="right|bottom"
-            android:clickable="true"
-            android:layout_weight="1"
-            android:layout_marginRight="15dp" />
-    </LinearLayout>
-
-
-</FrameLayout>
-<!-- From: file:/C:/Users/rgruber/Desktop/Fotoshow/Fotoshow/app/src/main/res/layout/activity_main.xml -->
+</FrameLayout><!-- From: file:/C:/Users/Gregor/Desktop/Schule/POS/14-15/Fotoshow/app/src/main/res/layout/activity_main.xml -->

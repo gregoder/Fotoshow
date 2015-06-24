@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="748dp"
+        android:layout_height="180dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/red"
+        android:layout_weight="3.34" />
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:layout_weight="0.11">
+
+        <ImageButton
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:id="@+id/imageButton"
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="onStartMusicClick"
+            android:background="@drawable/media_play_pause_resume" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <fragment
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-
-        android:id="@+id/frag_list"
-        ></fragment>
-    <fragment
+    <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:name="com.example.grothner.fotoshow.MapFragment"
-        android:id="@+id/frag_map"
-        ></fragment>
+        android:layout_height="match_parent">
 
-</LinearLayout>
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="390dp"
+            android:layout_height="match_parent"
+            android:verticalSpacing="0dp"
+            android:horizontalSpacing="0dp"
+            android:stretchMode="columnWidth"
+            android:numColumns="3"
+            android:layout_weight="0.60" />
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="0.40" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/showMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="onMapStartClick"
+            android:text="Standorte" />
+
+        <Button
+            android:id="@+id/slideshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="onStartMusicClick"
+            android:text="Slideshow" />
+
+        <Button
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="Optionen" />
+    </TableRow>
+
+</FrameLayout>

@@ -11,17 +11,15 @@
 
 
     <CheckBox
-        android:id="@+id/text"
+        android:id="@+id/Checkbox"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
 
-        android:paddingBottom="5dp"
-        android:layout_gravity="right"
-        android:textColor="@android:color/white"
+        android:layout_gravity="top|right"
+        android:textColor="@android:color/holo_blue_light"
         android:button="@null"
-        android:drawableRight="?android:attr/listChoiceIndicatorMultiple" />
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:gravity="top|right" />
     <!--  <selector
           xmlns:android="http://schemas.android.com/apk/res/android">
           <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/_ics_btn_check_on" />
