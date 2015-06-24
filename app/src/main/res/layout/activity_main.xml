@@ -7,10 +7,18 @@
     <GridView
         android:id="@+id/gridview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="474dp"
         android:verticalSpacing="0dp"
         android:horizontalSpacing="0dp"
         android:stretchMode="columnWidth"
         android:numColumns="3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:nestedScrollingEnabled="false"
+        android:onClick="onStartMusicClick" />
 
 </FrameLayout>

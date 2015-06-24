@@ -5,9 +5,12 @@ import android.app.ListActivity;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -44,14 +47,28 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void startDiashow() throws IOException {
+
+    public void onStartMusicClick(View v) {
+        startMusic();
+    }
+
+    public void startMusic() {
         String url = "http://stream3.o94.at:8002/mobile3"; // your URL here
+        Log.d(this.getClass().getSimpleName(), "loading media");
         MediaPlayer mediaPlayer = new MediaPlayer();
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
-        mediaPlayer.setDataSource(url);
-        mediaPlayer.prepare(); // might take long! (for buffering, etc)
-        mediaPlayer.start();
+        try {
+            mediaPlayer.setDataSource(url);
+            mediaPlayer.prepare(); // might take long! (for buffering, etc)
+            mediaPlayer.start();
+            Log.d(this.getClass().getSimpleName(), "starting media player");
+        }
+        catch(IOException e) {
+            Toast.makeText(this, R.string.music_error, Toast.LENGTH_LONG);
+            e.printStackTrace();
+        }
+
 
     }
 }
