@@ -62,19 +62,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.grothner.fotoshow" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faab22af-91db-46eb-b1da-dc91e0a82d0e" name="Default" comment="24.6 Slide + clickevent">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grothner/fotoshow/MusicTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fotoshow.iml" afterPath="$PROJECT_DIR$/Fotoshow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grothner/fotoshow/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grothner/fotoshow/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/grothner/fotoshow/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/grothner/fotoshow/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/osmdroid_android_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/osmdroid_android_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/slf4j_api_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api_1_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/slf4j_simple_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_simple_1_6_1.xml" />
+    <list default="true" id="faab22af-91db-46eb-b1da-dc91e0a82d0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gradle.iws" />
@@ -1697,6 +1685,11 @@
       <created>1434617830838</created>
       <updated>1434617830838</updated>
     </task>
+    <task id="LOCAL-00001" summary="Auslagern von Music Player in Async Task, Probleme mit Schul Internet!!!">
+      <created>1435225089216</created>
+      <updated>1435225089216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1753,7 +1746,8 @@
     </option>
     <MESSAGE value="Media Player initialisiert" />
     <MESSAGE value="24.6 Slide + clickevent" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.6 Slide + clickevent" />
+    <MESSAGE value="Auslagern von Music Player in Async Task, Probleme mit Schul Internet!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auslagern von Music Player in Async Task, Probleme mit Schul Internet!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2073,6 +2067,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2084063" vertical-offset="0" max-vertical-offset="0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
