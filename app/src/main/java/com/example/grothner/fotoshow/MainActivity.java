@@ -48,6 +48,7 @@ public class MainActivity extends Activity {
     }
     public void onStartSlide(View v){
         setContentView(R.layout.slide_show);
+        startMusic();
     }
     public void onMapStartClick(View v) {
         setContentView(R.layout.map);
@@ -62,22 +63,8 @@ public class MainActivity extends Activity {
     }
 
     public void startMusic() {
-        String url = "http://stream3.o94.at:8002/mobile3"; // your URL here ""
-        Log.d(this.getClass().getSimpleName(), "loading media");
-        MediaPlayer mediaPlayer = new MediaPlayer();
-        mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-
-        try {
-            mediaPlayer.setDataSource(url);
-            mediaPlayer.prepare(); // might take long! (for buffering, etc)
-            mediaPlayer.start();
-
-            Log.d(this.getClass().getSimpleName(), "starting media player");
-        }
-        catch(IOException e) {
-            Toast.makeText(this, R.string.music_error, Toast.LENGTH_LONG);
-            e.printStackTrace();
-        }
+        MusicTask task = new MusicTask(this);
+        task.execute("http://stream3.o94.at:8002/mobile3");
 
 
     }
